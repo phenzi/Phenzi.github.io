@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For Anahita</title>
+  <style>
+    body {
+      background-color: #e0f4f1;
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .player-container {
+      background-color: white;
+      border-radius: 20px;
+      padding: 2rem;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 500px;
+      width: 90%;
+    }
+    h1 {
+      color: #2a7f7f;
+      margin-bottom: 1rem;
+    }
+    iframe {
+      width: 100%;
+      height: 352px;
+      border: none;
+      border-radius: 12px;
+    }
+    p {
+      color: #444;
+      font-size: 0.9rem;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="player-container">
+    <h1>For Anahita 💙</h1>
+    <iframe src="https://open.spotify.com/embed/playlist/your_playlist_id_here" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <p>Curated with love — play online, no download.</p>
+  </div>
+</body>
+</html>
